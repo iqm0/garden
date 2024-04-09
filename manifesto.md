@@ -34,4 +34,5 @@ Striving to simplify our processes, communication, and solutions, enhancing unde
 - To foster an environment where every voice is heard, and every failure is a step forward.
 - To ensure that our work is not just about meeting deadlines but about learning, growing, and creating something truly valuable together.
 - To remain agile not just in our projects, but in our thinking, our learning, and our growth as a team and individuals.
-- By embracing these values, ComSen aims to redefine software development as a journey of continuous improvement, meaningful collaboration, and holistic team growth. This is our pledge—to create not just better software, but a better experience for all involved in its creation.
+
+By embracing these values, ComSen aims to redefine software development as a journey of continuous improvement, meaningful collaboration, and holistic team growth. This is our pledge—to create not just better software, but a better experience for all involved in its creation.

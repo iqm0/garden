@@ -1,7 +1,7 @@
 # ComSen
 ## A Common Sense Approach to Software Development
 
-Welcome to ComSen, the Common Sense framework for software development teams who value flexibility, collaboration, and the human element in their projects. ComSen (short for Common Sense) is a manifesto, an idea, a methodology designed to break free from the rigid confines of traditional software development practices, offering a breath of fresh air to small teams everywhere.
+Welcome to **ComSen**, the _Common Sense framework for software development teams_ who value flexibility, collaboration, and the human element in their projects. **ComSen** (short for _Common Sense_) is a manifesto, an idea, a methodology designed to break free from the rigid confines of traditional software development practices, offering a breath of fresh air to small teams everywhere.
 
 ### Our Philosophy
 
@@ -22,13 +22,13 @@ At its core, ComSen is about understanding and adapting to the dynamics of small
 
 - __North Star Initiatives__: Single, overarching goals that guide the team's efforts, focusing on what truly matters.
 - __Three-Scenario Planning__: Tasks are approached with a mindset that considers the best, worst, and most likely scenarios, ensuring a balanced view of potential outcomes.
-- __Task Vitality Tracking__: Visual indicators, such as the health of a plant, reflect the progress and urgency of tasks, adding a layer of engagement and intuition to project management.
+- __Task Vitality Tracking__: Visual indicators in the UI - such as the health of a plant 🌱 -, should reflect the progress and urgency of tasks, adding a layer of engagement and intuition to project management.
 - __Democratic Decision-Making__: Team-wide votes on key decisions foster a culture of inclusivity and shared ownership, aligning projects with the collective wisdom of the team.
 - __Transparency and Learning__: Successes and failures are shared openly, not just within the team but across the organization, amplifying learning opportunities.
 
 ### Getting Started
 
-ComSen is currently a manifesto and methodology that can be applied within existing project management tools. While we envision integrating ComSen into a dedicated productivity board akin to Jira or Asana, we encourage teams to adopt and adapt these principles within their current frameworks.
+ComSen is currently a manifesto and methodology that can be applied within existing project management tools. While we envision integrating ComSen into a dedicated productivity board akin to Jira or Asana - **don't** -, we encourage teams to adopt and adapt these principles within their current frameworks. We also intend to build our own version of such a tool, and share here with you in a while from now (as soon as I have time away from sprints 😬).
 
 ### How to Use ComSen
 - __Read the Manifesto__: Familiarize yourself with the core principles and components of ComSen.
@@ -36,6 +36,6 @@ ComSen is currently a manifesto and methodology that can be applied within exist
 - __Share Your Experiences__: We believe in learning from the community. Share your successes, challenges, and insights, and let's grow together.
 
 ### Contributing to ComSen
-ComSen is an open-source idea, and we welcome contributions from the community. Whether it's feedback, suggestions, or your own experiences with implementing ComSen, your input is invaluable in evolving this framework.
+**ComSen** is an open-source idea, and we welcome contributions from the community. Whether it's feedback, suggestions, or your own experiences with implementing **ComSen**, your input is invaluable in evolving this framework.
 
-Join us in redefining software development for small teams, making it more humane, flexible, and effective. Because at the end of the day, common sense should prevail.
+**Join us **in redefining software development for small teams, making it more humane, flexible, and effective. Because at the end of the day, **common sense should prevail.**

@@ -23,7 +23,7 @@ At its core, ComSen is about understanding and adapting to the dynamics of small
 - __North Star Initiatives__: Single, overarching goals that guide the team's efforts, focusing on what truly matters.
 - __Three-Scenario Planning__: Tasks are approached with a mindset that considers the best, worst, and most likely scenarios, ensuring a balanced view of potential outcomes.
 - __Task Vitality Tracking__: Visual indicators in the UI - such as the health of a plant 🌱 -, should reflect the progress and urgency of tasks, adding a layer of engagement and intuition to project management.
-- __Democratic Decision-Making__: Team-wide votes on key decisions foster a culture of inclusivity and shared ownership, aligning projects with the collective wisdom of the team.
+- __Collaborative Decision-Making__: By striking a balance between the collective insights of the team and the clarity of purposeful leadership, we ensure that our direction is both inclusive and focused, harnessing the power of diverse perspectives while maintaining a clear sense of purpose.
 - __Transparency and Learning__: Successes and failures are shared openly, not just within the team but across the organization, amplifying learning opportunities.
 
 ### Getting Started
@@ -38,4 +38,4 @@ ComSen is currently a manifesto and methodology that can be applied within exist
 ### Contributing to ComSen
 **ComSen** is an open-source idea, and we welcome contributions from the community. Whether it's feedback, suggestions, or your own experiences with implementing **ComSen**, your input is invaluable in evolving this framework.
 
-**Join us **in redefining software development for small teams, making it more humane, flexible, and effective. Because at the end of the day, **common sense should prevail.**
+**Join us** in redefining software development for small teams, making it more humane, flexible, and effective. Because at the end of the day, **common sense should prevail.**

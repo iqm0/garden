@@ -1,7 +1,7 @@
 package tests
 
 import (
-	"comsen-go/internal/server"
+	"comsen/internal/server"
 	"io"
 	"net/http"
 	"net/http/httptest"

@@ -13,3 +13,54 @@ templ HelloForm() {
 templ HelloPost(name string) {
 	<div>Hello, { name }</div>
 }
+
+templ TaskBoard() {
+		<!-- Task Board -->
+<div class="task-board">
+  <!-- Columns -->
+  <div class="columns">
+    <!-- Column 1: To-Do -->
+    <div class="column">
+      <h2>To-Do</h2>
+      <ul class="cards">
+        <li class="card">
+          <h3>Task 1</h3>
+          <p>This is task 1</p>
+        </li>
+        <li class="card">
+          <h3>Task 2</h3>
+          <p>This is task 2</p>
+        </li>
+      </ul>
+    </div>
+    <!-- Column 2: In Progress -->
+    <div class="column">
+      <h2>In Progress</h2>
+      <ul class="cards">
+        <li class="card">
+          <h3>Task 3</h3>
+          <p>This is task 3</p>
+        </li>
+        <li class="card">
+          <h3>Task 4</h3>
+          <p>This is task 4</p>
+        </li>
+      </ul>
+    </div>
+    <!-- Column 3: Done -->
+    <div class="column">
+      <h2>Done</h2>
+      <ul class="cards">
+        <li class="card">
+          <h3>Task 5</h3>
+          <p>This is task 5</p>
+        </li>
+        <li class="card">
+          <h3>Task 6</h3>
+          <p>This is task 6</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+}

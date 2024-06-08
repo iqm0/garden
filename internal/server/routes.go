@@ -33,6 +33,8 @@ func (s *Server) RegisterRoutes() http.Handler {
 
 	r.HandleFunc("/hello", web.HelloWebHandler)
 
+	r.HandleFunc("/tasks", web.TaskBoardHandler)
+
 	return r
 }
 
@@ -46,6 +48,10 @@ func (s *Server) HelloWorldHandler(w http.ResponseWriter, r *http.Request) {
 	}
 
 	_, _ = w.Write(jsonResp)
+}
+
+func (s *Server) indexHandler(w http.ResponseWriter, r *http.Request) {
+	fmt.Fprintf(w, "Hello World")
 }
 
 func (s *Server) healthHandler(w http.ResponseWriter, r *http.Request) {

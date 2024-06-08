@@ -19,3 +19,17 @@ func HelloWebHandler(w http.ResponseWriter, r *http.Request) {
 		log.Fatalf("Error rendering in HelloWebHandler: %e", err)
 	}
 }
+
+func TaskBoardHandler(w http.ResponseWriter, r *http.Request) {
+	err := r.ParseForm()
+	if err != nil {
+		http.Error(w, "Bad Request", http.StatusBadRequest)
+	}
+
+	component := TaskBoard()
+	err = component.Render(r.Context(), w)
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusBadRequest)
+		log.Fatalf("Error rendering in TaskBoardHandler: %e", err)
+	}
+}

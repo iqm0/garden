@@ -85,3 +85,27 @@ func HelloPost(name string) templ.Component {
 		return templ_7745c5c3_Err
 	})
 }
+
+func TaskBoard() templ.Component {
+	return templ.ComponentFunc(func(ctx context.Context, templ_7745c5c3_W io.Writer) (templ_7745c5c3_Err error) {
+		templ_7745c5c3_Buffer, templ_7745c5c3_IsBuffer := templ_7745c5c3_W.(*bytes.Buffer)
+		if !templ_7745c5c3_IsBuffer {
+			templ_7745c5c3_Buffer = templ.GetBuffer()
+			defer templ.ReleaseBuffer(templ_7745c5c3_Buffer)
+		}
+		ctx = templ.InitializeContext(ctx)
+		templ_7745c5c3_Var5 := templ.GetChildren(ctx)
+		if templ_7745c5c3_Var5 == nil {
+			templ_7745c5c3_Var5 = templ.NopComponent
+		}
+		ctx = templ.ClearChildren(ctx)
+		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("<!-- Task Board --><div class=\"task-board\"><!-- Columns --><div class=\"columns\"><!-- Column 1: To-Do --><div class=\"column\"><h2>To-Do</h2><ul class=\"cards\"><li class=\"card\"><h3>Task 1</h3><p>This is task 1</p></li><li class=\"card\"><h3>Task 2</h3><p>This is task 2</p></li></ul></div><!-- Column 2: In Progress --><div class=\"column\"><h2>In Progress</h2><ul class=\"cards\"><li class=\"card\"><h3>Task 3</h3><p>This is task 3</p></li><li class=\"card\"><h3>Task 4</h3><p>This is task 4</p></li></ul></div><!-- Column 3: Done --><div class=\"column\"><h2>Done</h2><ul class=\"cards\"><li class=\"card\"><h3>Task 5</h3><p>This is task 5</p></li><li class=\"card\"><h3>Task 6</h3><p>This is task 6</p></li></ul></div></div></div>")
+		if templ_7745c5c3_Err != nil {
+			return templ_7745c5c3_Err
+		}
+		if !templ_7745c5c3_IsBuffer {
+			_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteTo(templ_7745c5c3_W)
+		}
+		return templ_7745c5c3_Err
+	})
+}

@@ -1,4 +1,4 @@
-module htmx-go
+module comsen
 
 go 1.21.4
 

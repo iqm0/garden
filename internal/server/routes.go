@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"time"
 
-	"htmx-go/cmd/web"
+	"comsen/cmd/web"
 
 	"github.com/a-h/templ"
 	"github.com/gorilla/mux"

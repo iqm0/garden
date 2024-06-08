@@ -1,8 +1,8 @@
 package main
 
 import (
+	"comsen/internal/server"
 	"fmt"
-	"htmx-go/internal/server"
 )
 
 func main() {

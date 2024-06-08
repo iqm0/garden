@@ -9,7 +9,7 @@ import (
 
 	_ "github.com/joho/godotenv/autoload"
 
-	"htmx-go/internal/database"
+	"comsen/internal/database"
 )
 
 type Server struct {
